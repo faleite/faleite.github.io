@@ -13,6 +13,7 @@ Objetivos
 ======
 ***
 **B**ackend **|** **P**ython **D**eveloper **|** **C**iência de **D**ados **|** **P**esquisa **O**peracional **|** **D**jango **|** **M**achine **L**earning **|** **O**timização **|** **I**nteligência **A**rtificial
+
 ***
 
 Resumo  Profissional
@@ -35,6 +36,7 @@ Resumo Comportamental
 ======
 ***
 Focado; Objetivo; Ótimo Conhecimento Geral; Firme; Não toma decisões de modo emocional; Aprecia tarefas desafiadoras; Segue a risca regulamentos estabelecidos; Extremamente Resiliente; Mentalidade de Dono; Influente; Avalia cuidadosamente uma situação para desenvolver soluções realistas; Direto nas abordagens e decidido nas tomadas de decisão; Capacidade de observação superior; Pergunta “Por que” e “Quando”; Postura Reservada e séria; Toma decisões rapidamente; Questões pessoais e emocionais não têm grande espaço; Pessoa bastante ativa orientada à resultados; Exigente com quem o cerca; Postura cautelosa, com forte senso de auto-crítica; Atua de maneira produtiva e com autonomia; Emocionalmente equilibrado; Resolve com bom senso problemas de ordem disciplinar; Raciocina corretamente com números; Prático e organizado no trabalho
+
 ***
 
 Trajetória Profissional
