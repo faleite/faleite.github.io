@@ -45,5 +45,5 @@ Trajetória Profissional
 Cabo Especialista Departamento Pessoal .................de 2011 a 2019
 ## <img align="left" width="22" height="32" src="https://user-images.githubusercontent.com/77789023/112904500-f1e01280-90e0-11eb-88a2-596085082e75.png" alt="Resume application project app icon">&nbsp;Prefeitura Municipal de Itanhaém
 Professor de Música ................................................de 2008 a 2010
-## <img align="left" width="22" height="16" src="https://user-images.githubusercontent.com/77789023/112904531-fad0e400-90e0-11eb-9e57-2159f4a6f11f.png" alt="Resume application project app icon">&nbsp;Cartório de Notas de Itanhaém
+## <img align="left" width="26" height="26" src="https://cdn.icon-icons.com/icons2/390/PNG/512/scales_38922.png" alt="Resume application project app icon">&nbsp;Cartório de Notas de Itanhaém
 Assistente Notarial ................................................de 1999 a 2008
