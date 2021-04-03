@@ -40,9 +40,9 @@ Focado; Objetivo; Ótimo Conhecimento Geral; Firme; Não toma decisões de modo 
 
 Trajetória Profissional
 ======
-## <img align="left" width="18" height="28" src="https://user-images.githubusercontent.com/77789023/112903272-2e127380-90df-11eb-82a5-5e4dcf5c5b0b.png" alt="Resume application project app icon">Exército Brasileiro
+## <img align="left" width="18" height="28" src="https://user-images.githubusercontent.com/77789023/112903272-2e127380-90df-11eb-82a5-5e4dcf5c5b0b.png" alt="Resume application project app icon">&nbsp;Exército Brasileiro
 Cabo Especialista Departamento Pessoal .................de 2011 a 2019
-## <img align="left" width="22" height="32" src="https://user-images.githubusercontent.com/77789023/112904500-f1e01280-90e0-11eb-88a2-596085082e75.png" alt="Resume application project app icon">Prefeitura Municipal de Itanhaém
+## <img align="left" width="22" height="32" src="https://user-images.githubusercontent.com/77789023/112904500-f1e01280-90e0-11eb-88a2-596085082e75.png" alt="Resume application project app icon">&nbsp;Prefeitura Municipal de Itanhaém
 Professor de Música ................................................de 2008 a 2010
-## <img align="left" width="22" height="16" src="https://user-images.githubusercontent.com/77789023/112904531-fad0e400-90e0-11eb-9e57-2159f4a6f11f.png" alt="Resume application project app icon">Cartório de Notas de Itanhaém
+## <img align="left" width="22" height="16" src="https://user-images.githubusercontent.com/77789023/112904531-fad0e400-90e0-11eb-9e57-2159f4a6f11f.png" alt="Resume application project app icon">&nbsp;Cartório de Notas de Itanhaém
 Assistente Notarial ................................................de 1999 a 2008
