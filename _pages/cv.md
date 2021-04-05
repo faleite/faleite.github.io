@@ -41,9 +41,70 @@ Focado; Objetivo; Ótimo Conhecimento Geral; Firme; Não toma decisões de modo 
 
 Trajetória Profissional
 ======
-## <img align="left" width="18" height="28" src="https://user-images.githubusercontent.com/77789023/112903272-2e127380-90df-11eb-82a5-5e4dcf5c5b0b.png" alt="Resume application project app icon">&nbsp;Exército Brasileiro
+## <img align="left" width="18" height="28" src="{{ base_path }}/images/exercito.ico" alt="Resume application project app icon">&nbsp;Exército Brasileiro
 Cabo Especialista Departamento Pessoal .................de 2011 a 2019
-## <img align="left" width="22" height="32" src="https://user-images.githubusercontent.com/77789023/112904500-f1e01280-90e0-11eb-88a2-596085082e75.png" alt="Resume application project app icon">&nbsp;Prefeitura Municipal de Itanhaém
+## <img align="left" width="22" height="32" src="{{ base_path }}/images/prefeitura.png" alt="Resume application project app icon">&nbsp;Prefeitura Municipal de Itanhaém
 Professor de Música ................................................de 2008 a 2010
-## <img align="left" width="26" height="26" src="https://cdn.icon-icons.com/icons2/390/PNG/512/scales_38922.png" alt="Resume application project app icon">&nbsp;Cartório de Notas de Itanhaém
+## <img align="left" width="26" height="26" src="{{ base_path }}/images/cartorio.ico" alt="Resume application project app icon">&nbsp;Cartório de Notas de Itanhaém
 Assistente Notarial ................................................de 1999 a 2008
+
+***
+
+Escolaridade
+======
+***
+**_TECNOLOGIA DA INFORMAÇÃO_**<br>
+**UNIP** - Universidade Paulista (Interronpido)
+
+**_LICENCIATURA EM MÚSICA_**<br>
+**UNIMES** - Universidade Metropolitana De Santos
+
+***
+
+Competências Técnicas
+======
+***
+▶ **Plataformas** - GNU/Linux, Windows<br>
+▶ **Linguagens de Programação/Scripts** - Python, HTML, CSS, JavaScript, SQL<br>
+▶ **Frameworks** - Django, Flask, Node.js, React.js, Reactive.native, Twitter Bootstrap<br> 
+▶ **Virtualização** - Oracle VBox, VMware, Docker<br>
+▶ **Banco de Dados** - SQL lite, Postregsql, MongoDB, Access, Beaver<br>
+▶ **Testes** - Pytest, Unittest, Doctest, Selenium, Katalon<br>
+▶ **Versionamento** - Git, GitHub, Bitbucket<br>
+▶ **Boas práticas** - DRY, Design Patterns, SOLID, Testes Unitários<br>
+▶ **Integração Contínua** - Heroku, S3 AWS, Travis, Codecover, Docker, Postgres<br>
+
+***
+
+Competências Pessoais
+=====
+***
+
+|● Gestão de Projetos |● Tomada de Decisões|● Governança de Dados
+|● Gestão de Equipes  |● Melhoria Contínua|● Redução de Custos
+|● Gestão de Produtos |● Eficiência Operacional|● Negociação
+|● Controles Internos |● Apresentação|● Comercialização
+|● Liderança de Equipe|● Satisfação do cliente|● Sistemas Operacionais
+|● Confiabilidade     |● Indicadores Chave Processo|
+
+***
+
+Idiomas
+=====
+***
+
+<img align="" width="800" height="300" src="{{ base_path }}/images/linguage.png">
+
+***
+
+Cursos
+=====
+***
+▶ **Python Pro** - Engenharia de Software - Luciano Ramalho / Renzo Nuccitelli<br>
+▶ **Python Birds** - Programação Procedural e Orientação a Objetos - Renzo N.<br>
+▶ **Pytools** - Uso de ferramentas poderosas, para Pythonistas experientes - R. N.<br>
+▶ **Django** - Engenharia da Construção de Web Site - Renzo Nuccitelli<br>
+▶ **Infocurso** - Instalação e Manutenção de Computadores - Marcus Helder<br>
+▶ **Infocurso** - Pacote Office MS Avançado: (Word, PowerPoint, Excel, Access<br>
+▶ **SENAI/São Paulo** - Curso de Datilografia<br>
+▶ **SESI/São Paulo** - Curso Técnico de Regência - João Carlos Martins<br>
