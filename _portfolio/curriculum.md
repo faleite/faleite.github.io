@@ -1,13 +1,12 @@
 ---
 layout: archive
-title: "CV"
-permalink: /cv_p1/
+title: "Curriculum Vitae"
+permalink: /cv/
 author_profile: true
 redirect_from:
   - /resume
+excerpt: <br/>Portuguese version<br/>[Download here](http://faleite.art/files/cv-pt.pdf)<br/><br/>English version<br/>[Download here](http://faleite.art/files/cv-en.pdf)
 ---
-
-{% include base_path %}
 
 Objetivos
 ======
