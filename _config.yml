@@ -7,7 +7,7 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-locale                   : "pt-BR"
+locale                   : "pt-pt"
 title                    : "Fabricio Leite"
 title_separator          : "-"
 name                     : &name "Fabricio Araujo Leite"
@@ -83,8 +83,8 @@ analytics:
 author:
   name             : "Fabricio Leite"
   avatar           : "profile.png"
-  bio              : "Python | Backand Developer"
-  location         : "São Paulo / Brasil"
+  bio              : "Software Developer"
+  location         : "Lisboa / Portugal"
   employer         :
   pubmed           :
   googlescholar    :
@@ -254,7 +254,7 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-# paginate: 5 # amount of posts to show
+  # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
 timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
