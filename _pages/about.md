@@ -1,4 +1,4 @@
-https://github.com/faleite/42libft---
+---
 layout: archive
 title: "About me"
 permalink: /
