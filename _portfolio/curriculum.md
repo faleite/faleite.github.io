@@ -11,19 +11,13 @@ excerpt: <br/>Portuguese version<br/>[Download here](http://faleite.art/files/cv
 Objetivos
 ======
 ***
-**B**ackend **|** **P**ython **D**eveloper **|** **C**iência de **D**ados **|** **P**esquisa **O**peracional **|** **D**jango **|** **M**achine **L**earning **|** **O**timização **|** **I**nteligência **A**rtificial
+**S**oftware **D**eveloper
 
 ***
 
 Resumo  Profissional
 ======
-* Sou apaixonado por Matemática, Música e Tecnologia. Coloco à disposição a minha experiência em departamento pessoal, para a análise de Dados e Otimização de Processos, utilizando **OR/MS**, **AI** e **ML**, com Python e Desenvolvimento **WEB**. Desenvolvo considerando **TDD**, Integração Contínua e Design Patterns
-* Site em Django
-    * **_CI_ - _Heroku_ - _Travis_ - _Codecov_ - _Docker_ - _AWS_ _C3_ - _Sentry_ _Postgres_**
-* App Web/Mobile
-    * **_Node.Js_ - _React.Js_ - _Javascritpt_ -_Yarn_ - _MongoDB_ - _Insominia_**
-* Biblioteca Python
-    * **_Pyenv_ - _Travis_ - _Flake8_ - _Setup_ - _.gitignore_ - _Pyup-bot_ - _Pipenv_**
+- Sou apaixonado por, Música e Tecnologia. Coloco à disposição a minha experiência em departamento pessoal, para a análise de Dados e Otimização de Processos
 
 - Auxiliar Administrativo. Atendimento ao público. Firmas e autenticações. Gestão na emissão de lavraturas de escrituras. Gestão de pagamento do pessoal, Gestão de informações junto à receita federal. Manutenção de computadores, Controle de caixa e Desenvolvimento de programa para pagamento de funcionários.
 
@@ -52,8 +46,8 @@ Assistente Notarial ................................................de 1999 a 20
 Escolaridade
 ======
 ***
-**_TECNOLOGIA DA INFORMAÇÃO_**<br>
-**UNIP** - Universidade Paulista (Interronpido)
+**_ENGENHEIRO SOFTWARE_**<br>
+**42 LISBOA** - (Cursando) 
 
 **_LICENCIATURA EM MÚSICA_**<br>
 **UNIMES** - Universidade Metropolitana De Santos
@@ -64,14 +58,9 @@ Competências Técnicas
 ======
 ***
 ▶ **Plataformas** - GNU/Linux, Windows<br>
-▶ **Linguagens de Programação/Scripts** - Python, HTML, CSS, JavaScript, SQL<br>
-▶ **Frameworks** - Django, Flask, Node.js, React.js, Reactive.native, Twitter Bootstrap<br> 
-▶ **Virtualização** - Oracle VBox, VMware, Docker<br>
-▶ **Banco de Dados** - SQL lite, Postregsql, MongoDB, Access, Beaver<br>
-▶ **Testes** - Pytest, Unittest, Doctest, Selenium, Katalon<br>
+▶ **Linguagens de Programação/Scripts** - C, Python, Shell<br>
 ▶ **Versionamento** - Git, GitHub, Bitbucket<br>
-▶ **Boas práticas** - DRY, Design Patterns, SOLID, Testes Unitários<br>
-▶ **Integração Contínua** - Heroku, S3 AWS, Travis, Codecover, Docker, Postgres<br>
+▶ **Integração Contínua** - Heroku, Travis, Codecover, Github Actions<br>
 
 ***
 
@@ -85,14 +74,6 @@ Competências Pessoais
 |● Controles Internos |● Apresentação|● Comercialização
 |● Liderança de Equipe|● Satisfação do cliente|● Sistemas Operacionais
 |● Confiabilidade     |● Indicadores Chave Processo|
-
-***
-
-Idiomas
-=====
-***
-
-<img align="" width="800" height="300" src="{{ base_path }}/images/linguage.png">
 
 ***
 
