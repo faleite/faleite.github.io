@@ -6,16 +6,16 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve`. If you change this file, please restart the server process.
 
-theme                  : "minimal-mistakes-jekyll"
+theme                  : minimal-mistakes-jekyll
 remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "dark" # "default" "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin  : "dark" # "default" "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "pt-pt"
 title                    : "Fabricio Leite"
 title_separator          : "-"
 name                     : &name "Fabricio Araujo Leite"
-description              : &description "Desenvolvedor Backend"
+description              : &description "Software Enginner"
 url                      : # https://faleite.art # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "faleite/faleite.github.io"
