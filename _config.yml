@@ -121,7 +121,7 @@ author:
   youtube          :
   wikipedia        :
 
-
+G
 # Reading Files
 include:
   - .htaccess
@@ -141,7 +141,6 @@ exclude:
   - LICENSE
   - README
   - Rakefile
-  - assets`
   - assets/js/_main.js
   - assets/js/plugins
   - assets/js/vendor
@@ -271,10 +270,6 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-redirect-from
-  - jekyll-remote-theme
-remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin  : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
-
 
 # mimic GitHub Pages with --safe
 whitelist:
