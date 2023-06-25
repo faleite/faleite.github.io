@@ -121,7 +121,6 @@ author:
   youtube          :
   wikipedia        :
 
-G
 # Reading Files
 include:
   - .htaccess
