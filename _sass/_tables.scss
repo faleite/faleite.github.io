@@ -17,7 +17,7 @@ table {
 
 thead {
   background-color: $lighter-gray;
-  border-bottom: 1px solid $light-gray;
+  border-bottom: 1px solid #000 // $light-gray;
 }
 
 th {
