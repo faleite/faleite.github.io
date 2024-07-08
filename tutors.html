@@ -1,0 +1,50 @@
+---
+layout: compress
+title: "Tutors"
+permalink: /tutors.html
+author_profile: true
+markmap:
+  initialExpandLevel: 1
+---
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  background-color: #212529;
+  color: #899095;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.14.4/dist/style.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@6.7.0"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.14.4"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.14.4/dist/index.umd.min.js"></script><script>(r => {
+                setTimeout(r);
+              })(() => {
+  const {
+    markmap,
+    mm
+  } = window;
+  const toolbar = new markmap.Toolbar();
+  toolbar.attach(mm);
+  const el = toolbar.render();
+  el.setAttribute('style', 'position:absolute;bottom:20px;right:20px');
+  document.body.append(el);
+})</script><script>((getMarkmap, getOptions, root, jsonOptions) => {
+        const markmap = getMarkmap();
+        window.mm = markmap.Markmap.create('svg#mindmap', (getOptions || markmap.deriveOptions)(jsonOptions), root);
+      })(() => window.markmap,null,{"type":"heading","depth":0,"payload":{"lines":[0,1]},"content":"<a href=\"https://github.com/faleite/tutors\">Tutors</a>","children":[{"type":"heading","depth":1,"payload":{"lines":[1,2]},"content":"<a href=\"https://github.com/faleite/tutors/blob/main/src/vim.md\"><strong>vim</strong></a>"},{"type":"heading","depth":1,"payload":{"lines":[2,3]},"content":"<a href=\"https://github.com/faleite/tutors/blob/main/src/debugger.md\"><strong>debugger</strong></a>"},{"type":"heading","depth":1,"payload":{"lines":[3,4]},"content":"<a href=\"https://github.com/faleite/tutors/blob/main/src/git.md\"><strong>git</strong></a>"},{"type":"heading","depth":1,"payload":{"lines":[4,5]},"content":"<a href=\"https://github.com/faleite/tutors/blob/main/src/shell_I.md\"><strong>shell-I</strong></a>"},{"type":"heading","depth":1,"payload":{"lines":[5,6]},"content":"<a href=\"https://github.com/faleite/tutors/blob/main/src/shell_II.md\"><strong>shell-II</strong></a>"},{"type":"heading","depth":1,"payload":{"lines":[6,7]},"content":"<a href=\"https://github.com/faleite/tutors/blob/main/src/markdown.md\"><strong>markdown</strong></a>"},{"type":"heading","depth":1,"payload":{"lines":[7,8]},"content":"<a href=\"https://github.com/faleite/tutors/blob/main/src/tmux.md\"><strong>tmux</strong></a>"},{"type":"heading","depth":1,"payload":{"lines":[8,9]},"content":"<a href=\"https://github.com/faleite/tutors/blob/main/src/virtualenv.md\"><strong>virtualenv</strong></a>"},{"type":"heading","depth":1,"payload":{"lines":[9,10]},"content":"<a href=\"https://github.com/faleite/tutors/blob/main/src/projeto.md\"><strong>py_project</strong></a>"}]},{})</script>
+</body>
+</html>
