@@ -40,7 +40,13 @@ export function renderPost(id) {
         return;
     }
 
-    // Se post.file existir, buscar o arquivo markdown
+    // Atualiza a URL para permitir acesso direto
+    if (window.history && window.history.pushState) {
+        const url = new URL(window.location);
+        url.searchParams.set('id', id);
+        window.history.pushState({}, '', url);
+    }
+
     if (post.file) {
         fetch(post.file)
             .then(response => {
@@ -62,7 +68,6 @@ export function renderPost(id) {
                 renderPostNotFound();
             });
     } else if (post.content) {
-        // Fallback: se não houver arquivo, usar post.content
         const htmlContent = marked.parse(post.content);
         postContentEl.innerHTML = `
             <button class="back-btn" id="backBtn">← Voltar</button>
@@ -118,6 +123,12 @@ export function setupEventListeners() {
     // Event delegation para botão voltar
     postContentEl.addEventListener('click', (e) => {
         if (e.target.id === 'backBtn') {
+            // Remove o parâmetro id da URL ao voltar
+            if (window.history && window.history.pushState) {
+                const url = new URL(window.location);
+                url.searchParams.delete('id');
+                window.history.pushState({}, '', url.pathname);
+            }
             renderPostList();
         }
     });

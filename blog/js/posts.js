@@ -8,15 +8,14 @@ export const posts = [
         title: "Bem-vindo ao meu blog!",
         date: "10 de Novembro, 2025",
         excerpt: "Primeiro post do blog explicando como tudo funciona.",
-        file: "/blog/posts/post-1.md"
-
+        file: "posts/post-1.md"
     },
     {
         id: 2,
         title: "Como adicionar novos posts",
         date: "10 de Novembro, 2025",
         excerpt: "Tutorial rápido para adicionar novos posts ao seu blog.",
-        file: "/blog/posts/post-2.md" 
+        file: "posts/post-2.md" 
     }
 ];
 
