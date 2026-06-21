@@ -121,7 +121,8 @@ nav {
   top: calc(100% + 10px);
   right: 0;
   background: var(--bg-elev);
-  border: 1px solid var(--border);
+  /* border: 1px solid var(--border); */
+  border: none;
   border-radius: 12px;
   width: 200px;
   max-height: 0;
@@ -144,6 +145,7 @@ nav {
 
 /* ===================== SECTIONS ===================== */
 section {
+  position: relative;
   padding: 6rem 10%;
   margin: 0 auto;
   max-width: 1400px;
@@ -185,6 +187,7 @@ section {
   gap: 4rem;
   min-height: calc(100vh - 80px);
   padding-top: 2rem;
+  position: relative;
 }
 
 .section_pic-container {
@@ -215,15 +218,16 @@ section {
   border: 1px solid var(--border-strong);
 }
 
-#profile .section_text { text-align: left; }
-#profile .title { text-align: left; font-size: 3.5rem; margin-bottom: 0.5rem; }
-#profile .section_text_p1 { text-align: left; margin-bottom: 0; }
+#profile .section_text { text-align: center; }
+#profile .title { text-align: center; font-size: 3.5rem; margin-bottom: 0.5rem; }
+#profile .section_text_p1 { text-align: center; margin-bottom: 0; }
 #profile .section_text_p2 {
   background: var(--gradient);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
   font-weight: 600;
+  text-align: center;
 }
 
 /* ===================== BUTTONS ===================== */
@@ -262,7 +266,7 @@ section {
 
 #socials-container {
   display: flex;
-  justify-content: left;
+  justify-content: center;
   margin-top: 1.5rem;
   gap: 1rem;
 }
@@ -274,6 +278,18 @@ section {
   transition: transform 200ms ease, filter 200ms ease;
 }
 .icon:hover { transform: translateY(-3px); filter: invert(1) brightness(1); }
+
+.section-arrow {
+  position: absolute;
+  right: 1.5rem;
+  bottom: 1.5rem;
+  z-index: 2;
+}
+
+.section-arrow .icon {
+  width: 2.5rem;
+  height: auto;
+}
 
 /* ===================== ABOUT ===================== */
 #about .section-container {
@@ -325,7 +341,6 @@ section {
   font-weight: 600;
   font-size: 1.4rem;
   margin-bottom: 1.5rem;
-  text-align: left;
 }
 .experience-details-container {
   display: flex;
@@ -341,12 +356,13 @@ section {
 }
 article {
   display: flex;
+  align-items: baseline;
   gap: 0.6rem;
   width: calc(50% - 1rem);
 }
 article .icon { height: 1.25rem; cursor: default; }
-article h3 { font-size: 0.95rem; color: var(--text-strong); margin-bottom: 0.1rem; }
-article p { font-size: 0.85rem; color: var(--text-muted); }
+article h3 { font-size: 0.95rem; color: var(--text-strong); margin: 0 0 0.1rem; }
+article p { font-size: 0.85rem; color: var(--text-muted); margin: 0; }
 
 /* ===================== PROJECTS ===================== */
 .color-container { text-align: center; }
