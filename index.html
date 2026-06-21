@@ -1,365 +1,195 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Fabricio Leite</title>
-	<link rel="stylesheet" href="style.css">
-	<link rel="stylesheet" href="mediaqueries.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Software Developer</title>
+  <meta name="description" content="Portfolio of Fabricio Leite — Software Developer based in Lisbon. Backend, systems and jazz saxophone." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="mediaqueries.css" />
 </head>
 <body>
-	<nav id="desktop-nav">
-		<div class="logo">Fabricio Leite</div>
-		<div>
-			<ul class="nav-links">
-				<li><a href="#about">About</a></li>
-				<li><a href="#experience">Experience</a></li>
-				<li><a href="#projects">Projects</a></li>
-				<li><a href="#contact">Contact</a></li>
-			</ul>
-		</div>
-	</nav>
-	<nav id="hamburger-nav">
-		<div class="logo">Fabricio Leite</div>
-		<div class="hamburger-menu">
-			<div class="hamburger-icon" onclick="toggleMenu()">
-				<span></span>
-				<span></span>
-				<span></span>
-			</div>
-			<ul class="menu-links">
-				<li><a href="#about" onclick="toggleMenu()">About</a></li>
-				<li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
-				<li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-				<li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
-			</ul>
-		</div>
-	</nav>
-	<section id="profile">
-		<div class="section_pic-container">
-			<img src="./assets/profile-pic-1.png" alt="Fabricio Leite profile picture"
-			/>
-		</div>
-		<div class="section_text">
-			<p class="section_text_p1">Hello, I'm</p>
-			<h1 class="title">Fabricio Leite</h1>
-			<p class="section_text_p2">Software Developer</p>
-			<div class="btn-container">
-				<button class="btn btn-color-2"onclick="window.open('./assets/resume-example.pdf')"
-				>
-					Download CV
-				</button>
-				<button class="btn btn-color-1" onclick="location.href='./#contact'"
-				>
-					Contact info
-				</button>
-				</div>
-				<div id="socials-container">
-					<img src="./assets/linkedin.png"
-					alt="My LinkedIn profile"
-					class="icon"
-					onclick="location.href='https://www.linkedin.com/in/fabricio2310/'"
-					/>
-					<img src="./assets/github.png"
-					alt="My Github profile"
-					class="icon"
-					onclick="location.href='https://github.com/faleite'"
-					/>
-				</div>
-			</div>
-	</section>
-	<section id="about">
-		<p class="section_text_p1">Get To Know More</p>
-		<h1 class="title">About Me</h1>
-		<div class="section-container">
-			<div class="section_pic-container">
-				<img src="./assets/about-pic.png" alt="Profile picture"
-				class="about-pic"
-				/>
-				</div>
-				<div class="about-details-container">
-					<div class="about-containers">
-						<div class="details-container">
-							<img src="./assets/experience.png" alt="Experience icon"
-							class="icon"
-							/>
-							<h3>Experience</h3>
-							<p>2+ years <br>Backend Development</p>
-						</div>
-						<div class="details-container">
-							<img src="./assets/education.png" 
-							alt="Education icon"
-							class="icon"
-							/>
-							<h3>Education</h3>
-							<p>Software Engeneering <br>42 Lisbon</p>
-					</div>
-				</div>
-				<div class="text-container">
-					<p>
-						I'm a dedicated and experienced person, I love solving problems and playing jazz saxophone. 
-						Currently learning <b>Software Engineer at School 42</b>, is in first place in terms of ethical 
-						values, surpassing institutions such as <b>Havard, Columbia and Yale</b>.
-					</p>
-				</div>
-			</div>
-		</div>
-		<img 
-			src="./assets/arrow.png" 
-			alt="Arrow icons" 
-			class="icon arrow"
-			onclick="location.href='./#experience'"
-		/>
-	</section>
-	<section id="experience">
-		<p class="section_text_p1">Explore My</p>
-		<h1 class="title">Experience</h1>
-		<div class="experience-details-container">
-			<div class="about-containers">
-				<div class="details-container">
-					<h2 class="experience-sub-title">Backend Development</h2>
-					<div class="article-container">
-						<article>
-							<img
-								src="./assets/checkmark.png"
-								alt="Experience icon"
-								class="icon"
-							/>
-							<div>
-								<h3>C</h3>
-								<p>Experienced</p>
-							</div>
-						</article>
-						<article>
-							<img
-								src="./assets/checkmark.png"
-								alt="Experience icon"
-								class="icon"
-							/>
-							<div>
-								<h3>C++</h3>
-								<p>Intermediate</p>
-							</div>
-						</article>
-						<article>
-							<img
-								src="./assets/checkmark.png"
-								alt="Experience icon"
-								class="icon"
-							/>
-							<div>
-								<h3>Shell</h3>
-								<p>Experienced</p>
-							</div>
-						</article>
-						<article>
-							<img
-								src="./assets/checkmark.png"
-								alt="Experience icon"
-								class="icon"
-							/>
-							<div>
-								<h3>Python</h3>
-								<p>Basic</p>
-							</div>
-						</article>
-						<article>
-							<img
-								src="./assets/checkmark.png"
-								alt="Experience icon"
-								class="icon"
-							/>
-							<div>
-								<h3>Git</h3>
-								<p>Experienced</p>
-							</div>
-						</article>
-						<article>
-							<!-- Just fixing alignment -->
-						</article>
-					</div>
-				</div>
-				<div class="details-container">
-					<h2 class="experience-sub-title">Frontend Development</h2>
-					<div class="article-container">
-						<article>
-							<img
-								src="./assets/checkmark.png"
-								alt="Experience icon"
-								class="icon"
-							/>
-							<div>
-								<h3>HTML</h3>
-								<p>Basic</p>
-							</div>
-						</article>
-						<article>
-							<img
-								src="./assets/checkmark.png"
-								alt="Experience icon"
-								class="icon"
-							/>
-							<div>
-								<h3>CSS</h3>
-								<p>Basic</p>
-							</div>
-						</article>
-						<article>
-							<img
-								src="./assets/checkmark.png"
-								alt="Experience icon"
-								class="icon"
-							/>
-							<div>
-								<h3>JavaScript</h3>
-								<p>Basic</p>
-							</div>
-						</article>
-						<article>
-							<img
-								src="./assets/checkmark.png"
-								alt="Experience icon"
-								class="icon"
-							/>
-							<div>
-								<h3>Markdown</h3>
-								<p>Experienced</p>
-							</div>
-						</article>
-						<article>
-							<!-- Just fixing alignment -->
-						</article>
-						<article>
-							<!-- Just fixing alignment -->
-						</article>
-					</div>
-				</div>
-			</div>
-		</div>
-		<img 
-		src="./assets/arrow.png" 
-		alt="Arrow icons" 
-		class="icon arrow"
-		onclick="location.href='./#projects'"
-		/>
-	</section>
-	<section id="projects">
-		<p class="section_text_p1">Browse My Recent</p>
-		<h1 class="title">Projects</h1>
-		<div class="experience-details-container">
-			<div class="about-containers">
-			<div class="details-container color-container">
-				<div class="article-container">
-					<img
-						src="./assets/project-libft.png"
-						alt="Project 1"
-						class="project-img"
-					/>
-				</div>
-				<h2 class="experience-sub-title project-title">My own Standard C library</h2>
-				<div class="btn-container">
-					<button class="btn btn-color-2 project-btn" 
-					onclick="location.href='https://github.com/faleite/42libft'"
-					>
-					Github
-					</button>
-					<button class="btn btn-color-2 project-btn" 
-					onclick="location.href='./42libft.html'"
-					>
-					Live Demo
-					</button>
-				</div>
-			</div>
-			<div class="details-container color-container">
-				<div class="article-container">
-					<img
-						src="./assets/project-cub3d.png"
-						alt="Project 2"
-						class="project-img"
-					/>
-				</div>
-				<h2 class="experience-sub-title project-title">Ray casting</h2>
-				<div class="btn-container">
-					<button class="btn btn-color-2 project-btn" 
-					onclick="location.href='https://github.com/faleite/42_cub3d'"
-					>
-					Github
-					<!-- </button>
-					<button class="btn btn-color-2 project-btn" 
-					onclick="location.href='https://github.com/faleite/42_cub3d'"
-					>
-					Live Demo
-					</button> -->
-				</div>
-			</div>
-			<div class="details-container color-container">
-				<div class="article-container">
-					<img
-						src="./assets/project-minishell.png"
-						alt="Project 3"
-						class="project-img"
-					/>
-				</div>
-				<h2 class="experience-sub-title project-title">Create my own Shell</h2>
-				<div class="btn-container">
-					<button class="btn btn-color-2 project-btn" 
-					onclick="location.href='https://github.com/faleite/42_minishell'"
-					>
-					Github
-					<!-- </button>
-					<button class="btn btn-color-2 project-btn" 
-					onclick="location.href='https://github.com/faleite/42_minishell'"
-					>
-					Live Demo
-					</button> -->
-				</div>
-			</div>
-		</div>
-	</div>
-	<img 
-		src="./assets/arrow.png" 
-		alt="Arrow icons" 
-		class="icon arrow"
-		onclick="location.href='./#contact'"
-	/>
-	</section>
-	<section id="contact">
-		<p class="section_text_p1">Get In Touch</p>
-		<h1 class="title">Contact Me</h1>
-		<div class="contact-info-upper-container">
-			<div class="contact-info-container">
-				<img
-					src="./assets/email.png"
-					alt="Email icon"
-					class="icon contact-icon email-icon"
-				/>
-				<p><a href="mailto:fabricio_2310@hotmail.com">fabricio_2310@hotmail.com</a>
-				</p>
-			</div>
-			<div class="contact-info-container">
-				<img
-					src="./assets/linkedin.png"
-					alt="LinkedIn icon"
-					class="icon contact-icon"
-				/>
-				<p><a href="https://www.linkedin.com/in/fabricio2310/">LinkedIn</a>
-				</p>
-			</div>
-		</div>
-	</section>
-	<footer>
-		<nav>
-			<div class="nav-links-container">
-				<ul class="nav-links">
-					<li><a href="#about">About</a></li>
-					<li><a href="#experience">Experience</a></li>
-					<li><a href="#projects">Projects</a></li>
-					<li><a href="#contact">Contact</a></li>
-				</ul>
-			</div>
-		</nav>
-		<p>Copyright &#169; 2025 Fabricio Leite. All Rights Reserved.</p>
-	</footer>
-	<script src="script.js"></script>
-	</body>
+  <!-- DESKTOP NAV -->
+  <nav id="desktop-nav">
+    <div class="logo">Fabricio Leite</div>
+    <div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="https://medium.com/@faleite" target="_blank" rel="noopener">Blog ↗</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- MOBILE NAV -->
+  <nav id="hamburger-nav">
+    <div class="logo">Fabricio Leite</div>
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span><span></span><span></span>
+      </div>
+      <ul class="menu-links">
+        <li><a href="#about" onclick="toggleMenu()">About</a></li>
+        <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+        <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+        <li><a href="https://medium.com/@faleite" target="_blank" rel="noopener">Blog ↗</a></li>
+        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- PROFILE -->
+  <section id="profile">
+    <div class="section_pic-container">
+      <img src="./assets/profile-pic-1.png" alt="Fabricio Leite profile picture" />
+    </div>
+    <div class="section_text">
+      <p class="section_text_p1">Hello, I'm</p>
+      <h1 class="title">Fabricio Leite</h1>
+      <p class="section_text_p2">Software Developer</p>
+      <div class="btn-container">
+        <button class="btn btn-color-2" onclick="window.open('./assets/resume-example.pdf')">Download CV</button>
+        <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact info</button>
+      </div>
+      <div id="socials-container">
+        <img src="./assets/linkedin.png" alt="LinkedIn" class="icon" onclick="location.href='https://www.linkedin.com/in/fabricio-faleite'" />
+        <img src="./assets/github.png" alt="GitHub" class="icon" onclick="location.href='https://github.com/faleite'"/>
+      </div>
+    </div>
+    <a href="#about" class="section-arrow" aria-label="Go to About section"><img src="./assets/arrow.png" alt="Next section" class="icon arrow" /></a>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <p class="section_text_p1">Get To Know More</p>
+    <h1 class="title">About Me</h1>
+    <div class="section-container">
+      <div class="about-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <img src="./assets/experience.png" alt="" class="icon" />
+            <h3>Experience</h3>
+            <p>2+ years<br />Backend Development</p>
+          </div>
+          <div class="details-container">
+            <img src="./assets/education.png" alt="" class="icon" />
+            <h3>Education</h3>
+            <p>Software Engineering<br />42 Lisbon</p>
+          </div>
+        </div>
+        <div class="text-container">
+          <p>I'm a dedicated and curious developer who loves solving problems and playing jazz saxophone. Currently studying <b>Software Engineering at School 42</b>.</p>
+        </div>
+      </div>
+    </div>
+    <a href="#experience" class="section-arrow" aria-label="Go to Experience section"><img src="./assets/arrow.png" alt="Next section" class="icon arrow" /></a>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience">
+    <p class="section_text_p1">Explore My</p>
+    <h1 class="title">Experience</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container">
+          <h2 class="experience-sub-title">Backend Development</h2>
+          <div class="article-container">
+            <article><img src="./assets/checkmark.png" alt="" class="icon" /><div><h3>C</h3><p>Experienced</p></div></article>
+            <article><img src="./assets/checkmark.png" alt="" class="icon" /><div><h3>C++</h3><p>Intermediate</p></div></article>
+            <article><img src="./assets/checkmark.png" alt="" class="icon" /><div><h3>Shell</h3><p>Experienced</p></div></article>
+            <article><img src="./assets/checkmark.png" alt="" class="icon" /><div><h3>Python</h3><p>Basic</p></div></article>
+            <article><img src="./assets/checkmark.png" alt="" class="icon" /><div><h3>Git</h3><p>Experienced</p></div></article>
+          </div>
+        </div>
+        <div class="details-container">
+          <h2 class="experience-sub-title">Frontend Development</h2>
+          <div class="article-container">
+            <article><img src="./assets/checkmark.png" alt="" class="icon" /><div><h3>HTML</h3><p>Basic</p></div></article>
+            <article><img src="./assets/checkmark.png" alt="" class="icon" /><div><h3>CSS</h3><p>Basic</p></div></article>
+            <article><img src="./assets/checkmark.png" alt="" class="icon" /><div><h3>JavaScript</h3><p>Basic</p></div></article>
+            <article><img src="./assets/checkmark.png" alt="" class="icon" /><div><h3>Markdown</h3><p>Experienced</p></div></article>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a href="#projects" class="section-arrow" aria-label="Go to Projects section"><img src="./assets/arrow.png" alt="Next section" class="icon arrow" /></a>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <p class="section_text_p1">Browse My Recent</p>
+    <h1 class="title">Projects</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/project-libft.png" alt="libft" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">My own Standard C library</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/faleite/42libft'">Github</button>
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/project-cub3d.png" alt="cub3d" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">Ray casting</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/faleite/42_cub3d'">Github</button>
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/project-minishell.png" alt="minishell" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">Create my own Shell</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/faleite/42_minishell'">Github</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <p class="section_text_p1">Get In Touch</p>
+    <h1 class="title">Contact Me</h1>
+    <div class="contact-info-upper-container">
+      <div class="contact-info-container">
+        <img src="./assets/email.png" alt="" class="icon contact-icon email-icon" />
+        <p><a href="mailto:fabricio_2310@hotmail.com">Email</a></p>
+      </div>
+      <div class="contact-info-container">
+        <img src="./assets/linkedin.png" alt="" class="icon contact-icon" />
+        <p><a href="https://www.linkedin.com/in/fabricio-faleite/" target="_blank" rel="noopener">LinkedIn</a></p>
+      </div>
+      <div class="contact-info-container">
+        <img src="./assets/medium.png" alt="" class="icon contact-icon" onerror="this.style.display='none'" />
+        <p><a href="https://medium.com/@faleite" target="_blank" rel="noopener">Medium</a></p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="https://medium.com/@faleite" target="_blank" rel="noopener">Blog</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <p>© <span id="year"></span> Fabricio Leite. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
 </html>
